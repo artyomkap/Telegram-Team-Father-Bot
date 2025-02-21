@@ -1,0 +1,6 @@
+aiogram>=3
+sqlalchemy
+aiosqlite
+fastapi
+uvicorn
+forex-python

@@ -1,0 +1,10 @@
+TOKEN = ''
+SQLALCHEMY_URL = 'sqlite+aiosqlite:///trade.db'
+WEBHOOK_URL = ''
+WEBHOOK_PORT = 8081
+TELEGRAM_WEBHOOK_PATH = '/telegram_webhook/'
+WEBSITE_URL = '' # Without last slash('/') !
+MAIN_BOT_URL = ''
+TEXT_CHANNEL_ID = ''
+REFERAL_BONUS_PERCENT = 0.1
+OKX_SUPPORT_LINK = 'https://t.me/OKXsupport_official'

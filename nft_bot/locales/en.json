@@ -1,0 +1,91 @@
+{
+    "welcome": "👋Welcome, {first_name}, please select a service below:",
+    "blocked": "You are blocked!",
+    "select_language": "Select a language:",
+    "select_currency": "Select a currency:",
+    "profile": "\uD83D\uDCBC Personal Account\n\n📌 ID: {user_id}\n\uD83D\uDD2E Status: {status} 🎉\n\n💰 Balance: {balance} {currency}\n📑 Verification: {verification}\n\uD83D\uDEB8 {ref}",
+    "statuses": {
+        "stat_blocked": "Blocked",
+        "stat_unblocked": "Active"
+    },
+    "verifications": {
+        "verify_yes": "Verified",
+        "verify_no": "Not Verified"
+    },
+    "buttons": {
+        "main_kb": {
+            "profile_main": "\uD83D\uDCBC Profile",
+            "information_main": "ℹ️ Information",
+            "support_main": "\uD83D\uDEE0 Tech Support"
+        },
+        "profile_kb": {
+            "wallet": "💰 Wallet",
+            "verification": "📑 Verification",
+            "favorites": "❤️ Favorites",
+            "statistics": "📈 Statistics",
+            "settings": "⚙️ Settings",
+            "my_nft": "🎆 My NFTs",
+            "agreement": "Agreement",
+            "how_to_create_nft": "How to Create NFT?"
+        },
+        "wallet_kb": {
+            "top_up": "\uD83D\uDCB0 Top Up",
+            "withdraw": "\uD83D\uDCB8 Withdraw",
+            "promocode": "\uD83D\uDCDD Promocode"
+        },
+        "verification_kb": {
+            "verify": "\uD83D\uDCD1 Verify"
+        },
+        "settings_kb": {
+            "language": "\uD83C\uDF0D Change Language",
+            "currency": "\uD83D\uDCB5 Change Currency"
+        },
+        "deposit_kb": {
+            "card": "\uD83D\uDCB3 Card",
+            "crypto": "\uD83D\uDCB0 Cryptocurrency"
+        },
+        "deposit_top_up_kb": {
+            "check": "✅ Check Payment",
+            "support": "\uD83D\uDEE0 Tech Support"
+        },
+        "catalog_kb": {
+            "buy": "Buy"
+        },
+        "sell_nft_kb": {
+            "sell1": "Sell"
+        }
+    },
+    "wallet_message": "💰 Your Wallet:\n\uD83C\uDD94 Your User ID: {user_id}\n\uD83C\uDFE6 Balance: {balance} {currency}",
+    "verification_message": "\uD83D\uDD39 Your account is not verified.\n\nYou can obtain 'Verified' status by typing 'Verification' in the general tech support chat.\n\nTo access the general support chat, you will need to go to the 'Tech Support' section or use the button below.",
+    "favourites_message": "\uD83D\uDCA0 You have 0 tokens in favorites.",
+    "statistics_message": "Transactions in the last 24 hours: {no_orders}\nOnline: {no_online}\nViewing NFTs: {no_views}\nLargest transaction in the last 24 hours: ${big_deal}",
+    "settings_message": "⚙️ Settings",
+    "my_nft_message": "You don't have any tokens",
+    "my_nft_message2": "Your Tokens",
+    "how_to_create_nft_message": "To list your own NFT artwork 🎆:\n- You need to contact tech support (https://t.me/Supp_OpenSea) and make a deposit.\n- Tech support (https://t.me/Supp_OpenSea) reserves the right to reject your request to display the artwork at their discretion.\n- Your artwork should not offend anyone's interests; if it does, tech support has the right to reject your request, and in case of repeated offenses, they may freeze your account or impose a fine.\n\nBest regards, OpenSea Administration!",
+    "deposit_message": "ℹ️ Select a payment method:",
+    "withdraw_message": "\uD83D\uDCB8 Enter the amount to withdraw:",
+    "card_message": "\uD83D\uDCB8 Enter the amount to top up:",
+    "invalid_amount_message": "Please enter a valid amount",
+    "card_deposit_message": "\uD83E\uDD35 To top up your balance\n\n\uD83D\uDCB3 Payment Details: {card_number}\n\uD83D\uDCAC Comment: {comment}\n\n⚠️ The payment details are valid for 20 minutes after the request. If you don't complete the payment within this time, request new payment details. ⚠️\n\n⚠️ Click on the details or comment to copy them!\n\n⚠️ If you cannot leave a comment, please send the receipt/screenshot to tech support after payment.\n\n⚠️ \uD83D\uDEE0 Tech Support - @Supp_OpenSea\n\nBest regards, OpenSea",
+    "crypto_message": "\uD83D\uDCA0 Select the cryptocurrency for payment:",
+    "crypto_deposit_message": "\uD83D\uDCCD For your convenience, we offer the ability to top up your balance via {currency_title}. Please send any amount from {crypto_min_price} {currency_title} to the unique address:\n\n{crypto_address}\n\nOur bot will automatically recalculate the current {currency_title} rate and credit the funds to your balance after the first network confirmation. You will receive a notification once the funds are credited \uD83D\uDE80\n\nThank you for choosing our services! If you have any questions, please contact our support. \uD83C\uDF10",
+    "withdraw_success_message": "Request successfully created\n Await top up on {amount} {currency}.",
+    "promocode_message": "✍️ Enter the promocode",
+    "promocode_error_message": "❌ This promocode does not exist",
+    "promocode_success_message": "✅ Promocode successfully applied",
+    "catalog_message": "\uD83D\uDCA0 There are {collections_number} collections on the marketplace",
+    "collection_message": "\uD83D\uDCA0 Collection {collection_name}\n\nTokens in the collection: {number_of_tokens}",
+    "token_message": "\uD83D\uDCA0 Token {token_name}\n\n<i>{item_description}</i>\n\n\uD83D\uDDC2 Collection: {category_name}\n\uD83D\uDC69\u200D\uD83D\uDCBB Author: {item_author}\n\uD83D\uDD39 Blockchain: ETH\n\n\uD83D\uDCB8 Price: {item_price} USD (~ {item_currency_price} {user_currency})",
+    "buy_no_balance": "\uD83D\uDCB2 You do not have enough funds in your balance",
+    "buy_success": "\uD83D\uDCB2 Thank you for your purchase!",
+    "add_to_fav": "Item added to favorites",
+    "delete_from_fav": "Item removed from favorites",
+    "changed_currency": "Your currency has been changed to <b>{currency}</b>",
+    "changed_language": "Your language has been changed to <b>{language}</b>",
+    "purchased_item": "Your purchased NFT\n\n<b>Name:</b> {item_name}\n<b>Price:</b> {item_price} USD (~ {item_currency_price} {user_currency})\n\nWould you like to sell your NFT?",
+    "error_purchased_item": "Your NFT was not found! Please try again later!",
+    "sell_item_message": "Your NFT is listed for sale at {sell_amount} <b>{currency}</b>\n\nPlease wait for sales updates!",
+    "sell_item_success": "Your NFT has been sold! The amount of {amount} {currency} has been added to your balance",
+    "sell_item_error": "Your NFT was not sold! Please try again later or list it at a different price!"
+}

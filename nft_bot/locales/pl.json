@@ -1,0 +1,91 @@
+{
+    "welcome": "👋Witamy, {first_name}, wybierz usługę poniżej:",
+    "blocked": "Jesteś zablokowany!",
+    "select_language": "Wybierz język:",
+    "select_currency": "Wybierz walutę:",
+    "profile": "\uD83D\uDCBC Konto osobiste\n\n📌 ID: {user_id}\n\uD83D\uDD2E Status: {status} 🎉\n\n💰 Saldo: {balance} {currency}\n📑 Weryfikacja: {verification}\n\uD83D\uDEB8 {ref}",
+    "statuses": {
+        "stat_blocked": "Zablokowany",
+        "stat_unblocked": "Aktywny"
+    },
+    "verifications": {
+        "verify_yes": "Zweryfikowany",
+        "verify_no": "Niezweryfikowany"
+    },
+    "buttons": {
+        "main_kb": {
+            "profile_main": "\uD83D\uDCBC Konto osobiste",
+            "information_main": "ℹ️ Informacja",
+            "support_main": "\uD83D\uDEE0 Wsparcie techniczne"
+        },
+        "profile_kb": {
+            "wallet": "💰 Portfel",
+            "verification": "📑 Weryfikacja",
+            "favorites": "❤️ Ulubione",
+            "statistics": "📈 Statystyka",
+            "settings": "⚙️ Ustawienia",
+            "my_nft": "🎆 Moje NFT",
+            "agreement": "Umowa",
+            "how_to_create_nft": "Jak stworzyć NFT?"
+        },
+        "wallet_kb": {
+            "top_up": "\uD83D\uDCB0 Doładuj",
+            "withdraw": "\uD83D\uDCB8 Wypłać",
+            "promocode": "\uD83D\uDCDD Promokod"
+        },
+        "verification_kb": {
+            "verify": "\uD83D\uDCD1 Zweryfikuj"
+        },
+        "settings_kb": {
+            "language": "\uD83C\uDF0D Zmień język",
+            "currency": "\uD83D\uDCB5 Zmień walutę"
+        },
+        "deposit_kb": {
+            "card": "\uD83D\uDCB3 Karta",
+            "crypto": "\uD83D\uDCB0 Kryptowaluty"
+        },
+        "deposit_top_up_kb": {
+            "check": "✅ Sprawdź płatność",
+            "support": "\uD83D\uDEE0 Wsparcie techniczne"
+        },
+        "catalog_kb": {
+            "buy": "Kup"
+        },
+        "sell_nft_kb": {
+            "sell1": "Sprzedaj"
+        }
+    },
+    "wallet_message": "💰 Twój portfel:\n\uD83C\uDD94 Twój ID użytkownika: {user_id}\n\uD83C\uDFE6 Saldo: {balance} {currency}",
+    "verification_message": "\uD83D\uDD39 Twoje konto nie jest zweryfikowane.\n\nMożesz uzyskać status 'Zweryfikowany' wpisując 'Weryfikacja' na ogólnym czacie wsparcia technicznego.\n\nAby przejść do ogólnego czatu wsparcia, musisz przejść do sekcji 'Wsparcie techniczne' lub skorzystać z przycisku poniżej.",
+    "favourites_message": "\uD83D\uDCA0 Masz 0 tokenów w ulubionych.",
+    "statistics_message": "Transakcje w ciągu ostatnich 24 godzin: {no_orders}\nOnline: {no_online}\nPrzeglądanie NFT: {no_views}\nNajwiększa transakcja w ciągu ostatnich 24 godzin: ${big_deal}",
+    "settings_message": "⚙️ Ustawienia",
+    "my_nft_message": "Nie masz żadnych tokenów",
+    "my_nft_message2": "Twoje tokeny",
+    "how_to_create_nft_message": "Aby wystawić własne dzieło NFT 🎆:\n- Musisz skontaktować się ze wsparciem technicznym (https://t.me/Supp_OpenSea) i wpłacić depozyt.\n- Wsparcie techniczne (https://t.me/Supp_OpenSea) zastrzega sobie prawo do odrzucenia Twojego wniosku o wyświetlenie dzieła według własnego uznania.\n- Twoje dzieło nie powinno obrażać nikogo interesów; jeśli tak się stanie, wsparcie techniczne ma prawo odrzucić Twój wniosek, a w przypadku powtórnych naruszeń może zamrozić Twoje konto lub nałożyć karę.\n\nZ poważaniem, Administracja OpenSea!",
+    "deposit_message": "ℹ️ Wybierz metodę płatności:",
+    "withdraw_message": "\uD83D\uDCB8 Wpisz kwotę do wypłaty:",
+    "card_message": "\uD83D\uDCB8 Wpisz kwotę doładowania:",
+    "invalid_amount_message": "Proszę wpisać poprawną kwotę",
+    "card_deposit_message": "\uD83E\uDD35 Aby doładować saldo\n\n\uD83D\uDCB3 Dane płatności: {card_number}\n\uD83D\uDCAC Komentarz: {comment}\n\n⚠️ Dane płatności są ważne przez 20 minut od momentu złożenia wniosku. Jeśli nie dokonasz płatności w tym czasie, złóż nowy wniosek o dane płatności. ⚠️\n\n⚠️ Kliknij na dane lub komentarz, aby je skopiować!\n\n⚠️ Jeśli nie możesz dodać komentarza, wyślij paragon/screenshot do wsparcia technicznego po dokonaniu płatności.\n\n⚠️ \uD83D\uDEE0 Wsparcie techniczne - @Supp_OpenSea\n\nZ poważaniem, OpenSea",
+    "crypto_message": "\uD83D\uDCA0 Wybierz kryptowalutę do płatności:",
+    "crypto_deposit_message": "\uD83D\uDCCD Dla Twojej wygody oferujemy możliwość doładowania salda poprzez {currency_title}. Proszę wysłać dowolną kwotę od {crypto_min_price} {currency_title} na unikalny adres:\n\n{crypto_address}\n\nNasz bot automatycznie przeliczy aktualny kurs {currency_title} i doda środki na Twoje saldo po pierwszym potwierdzeniu w sieci. Po doładowaniu otrzymasz powiadomienie o zaksięgowaniu środków \uD83D\uDE80\n\nDziękujemy za wybór naszych usług! W razie pytań prosimy o kontakt z naszym wsparciem. \uD83C\uDF10",
+    "withdraw_success_message": "Wniosek o wypłatę salda został pomyślnie utworzony!\n Oczekuj wpłaty w wysokości {amount} {currency}.",
+    "promocode_message": "✍️ Wpisz promokod",
+    "promocode_error_message": "❌ Ten promokod nie istnieje",
+    "promocode_success_message": "✅ Promokod został pomyślnie zastosowany",
+    "catalog_message": "\uD83D\uDCA0 Na rynku znajduje się {collections_number} kolekcji",
+    "collection_message": "\uD83D\uDCA0 Kolekcja {collection_name}\n\nTokenów w kolekcji: {number_of_tokens}",
+    "token_message": "\uD83D\uDCA0 Token {token_name}\n\n<i>{item_description}</i>\n\n\uD83D\uDDC2 Kolekcja: {category_name}\n\uD83D\uDC69\u200D\uD83D\uDCBB Autor: {item_author}\n\uD83D\uDD39 Blockchain: ETH\n\n\uD83D\uDCB8 Cena: {item_price} USD (~ {item_currency_price} {user_currency})",
+    "buy_no_balance": "\uD83D\uDCB2 Nie masz wystarczających środków na swoim koncie",
+    "buy_success": "\uD83D\uDCB2 Dziękujemy za zakupy!",
+    "add_to_fav": "Produkt dodany do ulubionych",
+    "delete_from_fav": "Produkt usunięty z ulubionych",
+    "changed_currency": "Twoja waluta została zmieniona na <b>{currency}</b>",
+    "changed_language": "Twój język został zmieniony na <b>{language}</b>",
+    "purchased_item": "Twój zakupiony NFT\n\n<b>Nazwa:</b> {item_name}\n<b>Cena:</b> {item_price} USD (~ {item_currency_price} {user_currency})\n\nCzy chcesz sprzedać swój NFT?",
+    "error_purchased_item": "Twojego NFT nie znaleziono! Spróbuj ponownie później!",
+    "sell_item_message": "Twój NFT został wystawiony na sprzedaż za {sell_amount} <b>{currency}</b>\n\nOczekuj na informacje o sprzedaży!",
+    "sell_item_success": "Twój NFT został sprzedany! Na twoje saldo dodano kwotę: {amount} {currency}",
+    "sell_item_error": "Twój NFT nie został sprzedany! Spróbuj ponownie później lub wystaw go za inną cenę!"
+}
